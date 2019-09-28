@@ -18,6 +18,7 @@
 	- [2. Change all Logo Icon Background from Square to Circle. (< 5 minutes)](#2-change-all-logo-icon-background-from-square-to-circle--5-minutes)
 	- [3. Add your projects info card by card. (< 10 minutes)](#3-add-your-projects-info-card-by-card--10-minutes)
 	- [4. Deploying with GitHub pages. (< 5 minutes)](#4-deploying-with-github-pages--5-minutes)
+	- [5. Proceeding to Part 2 - JAM (React.js).](#5-proceeding-to-part-2---jam-reactjs)
 
 <br />
 
@@ -275,4 +276,9 @@ NOTE:
 6. Once clicked, it will notify you that your settings has been saved.
 7. Scroll back down to GitHub Pages and open the URL it is serving the website from. ![Open the served URL](./readme-resources/img/deploying-to-github/4_open_the_served_url.png "Open the served URL")
 </p>
+<br />
+
+
+
+### 5. Proceeding to [Part 2 - JAM (React.js)](https://github.com/bryansng/github-portfolio-jam).
 <br />
