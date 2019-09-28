@@ -18,7 +18,7 @@
 	- [2. Change all Logo Icon Background from Square to Circle. (< 5 minutes)](#2-change-all-logo-icon-background-from-square-to-circle--5-minutes)
 	- [3. Add your projects info card by card. (< 10 minutes)](#3-add-your-projects-info-card-by-card--10-minutes)
 	- [4. Deploying with GitHub pages. (< 5 minutes)](#4-deploying-with-github-pages--5-minutes)
-	- [5. Proceeding to Part 2 - JAM (React.js).](#5-proceeding-to-part-2---jam-reactjs)
+	- [5. Proceeding to Part 2 - React.js.](#5-proceeding-to-part-2---reactjs)
 
 <br />
 
@@ -280,5 +280,5 @@ NOTE:
 
 
 
-### 5. Proceeding to [Part 2 - JAM (React.js)](https://github.com/bryansng/github-portfolio-jam).
+### 5. Proceeding to [Part 2 - React.js](https://github.com/bryansng/github-portfolio-react).
 <br />
