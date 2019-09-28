@@ -1,0 +1,109 @@
+#loadingMessage {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:var(--spacing-extra-extra-large);
+}
+
+.contentContainer {
+    height:100vh;	
+    height:auto;
+    overflow: hidden;
+}
+
+.topBar {
+    width:100%;    	
+    padding-left:var(--spacing-medium);
+    padding-right:var(--spacing-medium);
+    padding-top:var(--spacing-small);
+    padding-bottom:var(--spacing-small);
+}
+
+.topBarWrapper {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.user {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+
+.userInfo {
+    padding:var(--spacing-small);
+    font-size: .875rem;
+    font-family: 'Ubuntu Mono', monospace;  
+}
+
+.userName {
+    font-size: initial;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topLanguage {    	
+    font-size:.875rem;
+    padding-right:var(--spacing-small);
+    padding-top:var(--spacing-extra-small);
+    padding-bottom:var(--spacing-extra-small);
+}
+
+.topLanguages {
+    padding-top:var(--spacing-extra-small);
+    font-family: 'Ubuntu Mono', monospace;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+.emoji {
+    width:1rem;
+}
+
+.imageContainer {
+    border-radius:100%;
+    padding:var(--spacing-extra-small);	
+    border-style:solid;
+    border-width:1px;
+    border-color:var(--black-10);
+    height:4rem;
+    width:4rem;
+}
+
+.socialMedia {
+    display: flex;
+    box-sizing: border-box;
+    margin:0;
+}
+
+.hire {
+    position:relative;
+    left:0;
+    bottom:0;
+    width:100%;
+    font-size:1rem;
+    text-align:center;
+    padding:var(--spacing-medium);
+}
+
+.hireContactLink {
+    padding:var(--spacing-extra-small);
+    color:inherit;
+    text-decoration:none;
+    opacity:1;
+    transition:opacity .15s ease-in;
+}
+.hireContactLink:hover {
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 60em) {
+    .hire {
+        position:absolute;
+        left:0;
+        bottom:0;
+    }
+}

@@ -1,0 +1,45 @@
+.container {    	
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    box-shadow:2px 2px 4px 2px rgba( 0, 0, 0, 0.2 );
+    border-radius:.25rem;
+}
+
+.title {
+    margin:var(--spacing-none);
+    padding:var(--spacing-medium);
+    text-align:center;
+}
+
+.loadingMessage {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:var(--spacing-extra-extra-large);
+}
+
+.scroller { 
+    height:100%;
+}
+
+@media screen and (min-width: 60em) {
+    .scroller {    	
+        height:75vh;
+        overflow-y:scroll;
+    }
+
+    .container {
+        width: 80%;
+    }
+}
+
+.repoList {
+    padding-bottom:var(--spacing-medium);
+    width:100%;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}

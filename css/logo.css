@@ -1,0 +1,29 @@
+.logo {
+    width: 2.5rem;
+}
+
+.doc {
+    width: 12px;
+    height: 16px;
+}
+
+.star {
+    width: 14px;
+    height: 16px;
+}
+
+.fork {
+    width: 10px;
+    height: 16px;
+}
+
+.logoLink {
+    opacity:1;
+    transition:opacity .15s ease-in;
+    text-decoration:none;
+}
+
+.logoLink:hover {
+    opacity:0.5;
+    transition:opacity .15s ease-in;
+}

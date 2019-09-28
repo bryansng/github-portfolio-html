@@ -1,0 +1,81 @@
+.card {
+    margin:var(--spacing-small);
+    padding:var(--spacing-small);
+    box-shadow:2px 2px 8px 0px rgba( 0, 0, 0, 0.2 );
+    border-radius:.25rem;
+}
+
+.cardWrapper {
+    width:16rem;
+    height:16rem;
+    position:relative;
+}
+
+.top {
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.name {
+    margin-top:var(--spacing-none);
+    margin-bottom:var(--spacing-none);
+}
+
+.desc {
+    line-height:1.25;
+}
+
+.bottom {
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+/* .size { font-ubuntu-mono } */
+.size {    
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.stars, .forks {
+    padding-left:var(--spacing-small);
+    padding-right:var(--spacing-small);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.flexRow {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.flexBetween {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.language {
+    font-size:.875rem;
+    padding-right:var(--spacing-medium);
+    padding-top:var(--spacing-extra-small);
+    padding-bottom:var(--spacing-extra-small);
+}
+
+.languages {
+    padding-top:var(--spacing-extra-small);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;    
+    font-family: 'Ubuntu Mono', monospace;
+}
